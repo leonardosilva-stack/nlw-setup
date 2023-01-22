@@ -1,3 +1,3 @@
-export function genrateProgressPercentage(total: number, completed: number){
-  return Math.round((completed / total ) * 1);
+export function generateProgressPercentage(total: number, completed: number){
+  return Math.round((completed / total ) * 100);
 }
